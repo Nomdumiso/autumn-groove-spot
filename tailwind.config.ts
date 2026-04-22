@@ -128,6 +128,10 @@ export default {
             opacity: "0.7",
           },
         },
+        "visualizer": {
+          "0%": { transform: "scaleY(0.2)" },
+          "100%": { transform: "scaleY(1)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -136,6 +140,7 @@ export default {
         "sway": "sway ease-in-out infinite",
         "fade-in-up": "fade-in-up 0.6s ease-out forwards",
         "pulse-soft": "pulse-soft 2s ease-in-out infinite",
+        "visualizer": "visualizer 0.8s ease-in-out infinite alternate",
       },
     },
   },
